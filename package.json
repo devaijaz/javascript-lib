@@ -1,0 +1,40 @@
+{
+  "name": "@ajaz.org/javascript-lib",
+  "version": "0.0.1",
+  "description": "JavaScript Utility Functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devaijaz/javascript-lib.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Utiliy",
+    "Functions"
+  ],
+  "author": "devaijaz",
+  "license": "Unlicenced",
+  "bugs": {
+    "url": "https://github.com/devaijaz/javascript-lib/issues"
+  },
+  "homepage": "https://github.com/devaijaz/javascript-lib#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "rollup": "^2.61.1",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
